@@ -1,16 +1,17 @@
 //
-//  ContentView.swift
+//  creme brulee.swift
 //  FavouriteThings
 //
-//  Created by Tom Wu on 2022-10-28.
+//  Created by Tom Wu on 2022-11-03.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct CremeBruleeView: View {
     var body: some View {
         VStack{
             ScrollView{
+                Image("creme brulee")
                     .resizable()
                     .scaledToFit()
                 
@@ -22,8 +23,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct CremeBrulee_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        CremeBruleeView()
     }
 }

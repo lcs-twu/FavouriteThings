@@ -1,16 +1,17 @@
 //
-//  ContentView.swift
+//  SecondThingView.swift
 //  FavouriteThings
 //
-//  Created by Tom Wu on 2022-10-28.
+//  Created by Tom Wu on 2022-10-31.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct Lakefield2View: View {
     var body: some View {
         VStack{
             ScrollView{
+                Image("lakefield2")
                     .resizable()
                     .scaledToFit()
                 
@@ -22,8 +23,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Lakefield2_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Lakefield2View()
     }
 }

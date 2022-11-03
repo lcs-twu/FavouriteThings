@@ -1,15 +1,11 @@
 {
   "images" : [
     {
+      "filename" : "niumogazi.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "filename" : "lakefield1.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
