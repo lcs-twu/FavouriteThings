@@ -17,6 +17,7 @@
 		81CEE45B2913FE610077D71F /* creme brulee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE45A2913FE610077D71F /* creme brulee.swift */; };
 		81CEE45D2913FE6C0077D71F /* tomato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE45C2913FE6C0077D71F /* tomato.swift */; };
 		81CEE45F2913FE820077D71F /* niumogazi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE45E2913FE820077D71F /* niumogazi.swift */; };
+		81CEE461291401260077D71F /* Lakefield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE460291401260077D71F /* Lakefield.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		81CEE45A2913FE610077D71F /* creme brulee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "creme brulee.swift"; sourceTree = "<group>"; };
 		81CEE45C2913FE6C0077D71F /* tomato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomato.swift; sourceTree = "<group>"; };
 		81CEE45E2913FE820077D71F /* niumogazi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = niumogazi.swift; sourceTree = "<group>"; };
+		81CEE460291401260077D71F /* Lakefield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lakefield.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				819D5678290C371A0073D9B8 /* FavouriteThingsApp.swift */,
 				81CEE4552913F6600077D71F /* views */,
 				819D567A290C371A0073D9B8 /* ContentView.swift */,
+				81CEE460291401260077D71F /* Lakefield.swift */,
 				812A7D8029105966001E61CB /* Lakefield2.swift */,
 				81CEE4582913FD590077D71F /* Lakfield3.swift */,
 				81CEE45A2913FE610077D71F /* creme brulee.swift */,
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81CEE461291401260077D71F /* Lakefield.swift in Sources */,
 				819D567B290C371A0073D9B8 /* ContentView.swift in Sources */,
 				81CEE4572913F9600077D71F /* FavouriteThingsListView.swift in Sources */,
 				812A7D8129105966001E61CB /* Lakefield2.swift in Sources */,

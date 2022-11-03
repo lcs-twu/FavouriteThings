@@ -1,17 +1,17 @@
 //
-//  ContentView.swift
+//  Lakefield.swift
 //  FavouriteThings
 //
-//  Created by Tom Wu on 2022-10-28.
+//  Created by Tom Wu on 2022-11-03.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct LakefieldView: View {
     var body: some View {
         VStack{
             ScrollView{
-                
+                Image("lakefield")
                     .resizable()
                     .scaledToFit()
                 
@@ -23,8 +23,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Lakefield_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LakefieldView()
     }
 }
