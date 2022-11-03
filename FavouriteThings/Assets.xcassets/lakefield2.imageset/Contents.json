@@ -1,12 +1,10 @@
 {
   "images" : [
     {
-      "filename" : "lakefield4.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "lakefield5.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
