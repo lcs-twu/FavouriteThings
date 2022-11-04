@@ -1,5 +1,5 @@
 //
-//  Lakfield3.swift
+//  Lakefield.swift
 //  FavouriteThings
 //
 //  Created by Tom Wu on 2022-11-03.
@@ -7,24 +7,24 @@
 
 import SwiftUI
 
-struct Lakefield3View: View {
+struct LakefieldView: View {
     var body: some View {
-        VStack{
+        VStack(alignment: .leading){
             ScrollView{
-                Image("lakefield3")
+                Image("lakefield")
                     .resizable()
                     .scaledToFit()
                 
                 
                 Spacer()
             }
-            .navigationTitle("Title")
+            .navigationTitle("Lakefield")
         }
     }
 }
 
-struct Lakefield3_Previews: PreviewProvider {
+struct Lakefield_Previews: PreviewProvider {
     static var previews: some View {
-        Lakefield3View()
+        LakefieldView()
     }
 }

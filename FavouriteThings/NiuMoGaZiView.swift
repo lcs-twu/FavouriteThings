@@ -1,30 +1,30 @@
 //
-//  SecondThingView.swift
+//  niumogazi.swift
 //  FavouriteThings
 //
-//  Created by Tom Wu on 2022-10-31.
+//  Created by Tom Wu on 2022-11-03.
 //
 
 import SwiftUI
 
-struct Lakefield2View: View {
+struct NiuMoGaZiView: View {
     var body: some View {
-        VStack{
+        VStack(alignment: .leading){
             ScrollView{
-                Image("lakefield2")
+                Image("niumogazi")
                     .resizable()
                     .scaledToFit()
                 
                 
                 Spacer()
             }
-            .navigationTitle("Title")
+            .navigationTitle("niumogazi")
         }
     }
 }
 
-struct Lakefield2_Previews: PreviewProvider {
+struct NiuMoGaZi_Previews: PreviewProvider {
     static var previews: some View {
-        Lakefield2View()
+        NiuMoGaZiView()
     }
 }

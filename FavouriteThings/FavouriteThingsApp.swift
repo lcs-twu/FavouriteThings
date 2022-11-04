@@ -10,8 +10,7 @@ import SwiftUI
 @main
 struct FavouriteThingsApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        WindowGroup{
             NavigationView{
                 FavouriteThingsListView()
             }

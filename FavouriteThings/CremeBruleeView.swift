@@ -1,5 +1,5 @@
 //
-//  niumogazi.swift
+//  creme brulee.swift
 //  FavouriteThings
 //
 //  Created by Tom Wu on 2022-11-03.
@@ -7,24 +7,24 @@
 
 import SwiftUI
 
-struct NiuMoGaZiView: View {
+struct CremeBruleeView: View {
     var body: some View {
-        VStack{
+        VStack(alignment: .leading){
             ScrollView{
-                Image("niumogazi")
+                Image("creme brulee")
                     .resizable()
                     .scaledToFit()
                 
                 
                 Spacer()
             }
-            .navigationTitle("Title")
+            .navigationTitle("Creme brulee")
         }
     }
 }
 
-struct NiuMoGaZi_Previews: PreviewProvider {
+struct CremeBrulee_Previews: PreviewProvider {
     static var previews: some View {
-        NiuMoGaZiView()
+        CremeBruleeView()
     }
 }

@@ -1,30 +1,30 @@
 //
-//  creme brulee.swift
+//  SecondThingView.swift
 //  FavouriteThings
 //
-//  Created by Tom Wu on 2022-11-03.
+//  Created by Tom Wu on 2022-10-31.
 //
 
 import SwiftUI
 
-struct CremeBruleeView: View {
+struct Lakefield2View: View {
     var body: some View {
-        VStack{
+        VStack(alignment: .leading){
             ScrollView{
-                Image("creme brulee")
+                Image("lakefield2")
                     .resizable()
                     .scaledToFit()
                 
                 
                 Spacer()
             }
-            .navigationTitle("Title")
+            .navigationTitle("Lakefield2")
         }
     }
 }
 
-struct CremeBrulee_Previews: PreviewProvider {
+struct Lakefield2_Previews: PreviewProvider {
     static var previews: some View {
-        CremeBruleeView()
+        Lakefield2View()
     }
 }

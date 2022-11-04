@@ -7,32 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		812A7D8129105966001E61CB /* Lakefield2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812A7D8029105966001E61CB /* Lakefield2.swift */; };
+		812A7D8129105966001E61CB /* Lakefield2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812A7D8029105966001E61CB /* Lakefield2View.swift */; };
 		819D5679290C371A0073D9B8 /* FavouriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D5678290C371A0073D9B8 /* FavouriteThingsApp.swift */; };
-		819D567B290C371A0073D9B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819D567A290C371A0073D9B8 /* ContentView.swift */; };
 		819D567D290C371C0073D9B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819D567C290C371C0073D9B8 /* Assets.xcassets */; };
 		819D5680290C371C0073D9B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819D567F290C371C0073D9B8 /* Preview Assets.xcassets */; };
 		81CEE4572913F9600077D71F /* FavouriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE4562913F9600077D71F /* FavouriteThingsListView.swift */; };
-		81CEE4592913FD590077D71F /* Lakfield3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE4582913FD590077D71F /* Lakfield3.swift */; };
-		81CEE45B2913FE610077D71F /* creme brulee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE45A2913FE610077D71F /* creme brulee.swift */; };
-		81CEE45D2913FE6C0077D71F /* tomato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE45C2913FE6C0077D71F /* tomato.swift */; };
-		81CEE45F2913FE820077D71F /* niumogazi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE45E2913FE820077D71F /* niumogazi.swift */; };
-		81CEE461291401260077D71F /* Lakefield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE460291401260077D71F /* Lakefield.swift */; };
+		81CEE4592913FD590077D71F /* Lakfield3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE4582913FD590077D71F /* Lakfield3View.swift */; };
+		81CEE45B2913FE610077D71F /* CremeBruleeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE45A2913FE610077D71F /* CremeBruleeView.swift */; };
+		81CEE45D2913FE6C0077D71F /* TomatoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE45C2913FE6C0077D71F /* TomatoView.swift */; };
+		81CEE45F2913FE820077D71F /* NiuMoGaZiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE45E2913FE820077D71F /* NiuMoGaZiView.swift */; };
+		81CEE461291401260077D71F /* LakefieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE460291401260077D71F /* LakefieldView.swift */; };
+		81CEE46629156B210077D71F /* LakefieldViewCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE46529156B210077D71F /* LakefieldViewCollection.swift */; };
+		81CEE46829156B2D0077D71F /* FoodCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CEE46729156B2D0077D71F /* FoodCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		812A7D8029105966001E61CB /* Lakefield2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lakefield2.swift; sourceTree = "<group>"; };
+		812A7D8029105966001E61CB /* Lakefield2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lakefield2View.swift; sourceTree = "<group>"; };
 		819D5675290C371A0073D9B8 /* FavouriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavouriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		819D5678290C371A0073D9B8 /* FavouriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsApp.swift; sourceTree = "<group>"; };
-		819D567A290C371A0073D9B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		819D567C290C371C0073D9B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		819D567F290C371C0073D9B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81CEE4562913F9600077D71F /* FavouriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThingsListView.swift; sourceTree = "<group>"; };
-		81CEE4582913FD590077D71F /* Lakfield3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lakfield3.swift; sourceTree = "<group>"; };
-		81CEE45A2913FE610077D71F /* creme brulee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "creme brulee.swift"; sourceTree = "<group>"; };
-		81CEE45C2913FE6C0077D71F /* tomato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomato.swift; sourceTree = "<group>"; };
-		81CEE45E2913FE820077D71F /* niumogazi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = niumogazi.swift; sourceTree = "<group>"; };
-		81CEE460291401260077D71F /* Lakefield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lakefield.swift; sourceTree = "<group>"; };
+		81CEE4582913FD590077D71F /* Lakfield3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lakfield3View.swift; sourceTree = "<group>"; };
+		81CEE45A2913FE610077D71F /* CremeBruleeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CremeBruleeView.swift; sourceTree = "<group>"; };
+		81CEE45C2913FE6C0077D71F /* TomatoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TomatoView.swift; sourceTree = "<group>"; };
+		81CEE45E2913FE820077D71F /* NiuMoGaZiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiuMoGaZiView.swift; sourceTree = "<group>"; };
+		81CEE460291401260077D71F /* LakefieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LakefieldView.swift; sourceTree = "<group>"; };
+		81CEE46529156B210077D71F /* LakefieldViewCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LakefieldViewCollection.swift; sourceTree = "<group>"; };
+		81CEE46729156B2D0077D71F /* FoodCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,13 +69,12 @@
 			children = (
 				819D5678290C371A0073D9B8 /* FavouriteThingsApp.swift */,
 				81CEE4552913F6600077D71F /* views */,
-				819D567A290C371A0073D9B8 /* ContentView.swift */,
-				81CEE460291401260077D71F /* Lakefield.swift */,
-				812A7D8029105966001E61CB /* Lakefield2.swift */,
-				81CEE4582913FD590077D71F /* Lakfield3.swift */,
-				81CEE45A2913FE610077D71F /* creme brulee.swift */,
-				81CEE45C2913FE6C0077D71F /* tomato.swift */,
-				81CEE45E2913FE820077D71F /* niumogazi.swift */,
+				81CEE460291401260077D71F /* LakefieldView.swift */,
+				812A7D8029105966001E61CB /* Lakefield2View.swift */,
+				81CEE4582913FD590077D71F /* Lakfield3View.swift */,
+				81CEE45A2913FE610077D71F /* CremeBruleeView.swift */,
+				81CEE45C2913FE6C0077D71F /* TomatoView.swift */,
+				81CEE45E2913FE820077D71F /* NiuMoGaZiView.swift */,
 				819D567C290C371C0073D9B8 /* Assets.xcassets */,
 				819D567E290C371C0073D9B8 /* Preview Content */,
 			);
@@ -92,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				81CEE4562913F9600077D71F /* FavouriteThingsListView.swift */,
+				81CEE46529156B210077D71F /* LakefieldViewCollection.swift */,
+				81CEE46729156B2D0077D71F /* FoodCollectionView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -166,15 +169,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81CEE461291401260077D71F /* Lakefield.swift in Sources */,
-				819D567B290C371A0073D9B8 /* ContentView.swift in Sources */,
+				81CEE461291401260077D71F /* LakefieldView.swift in Sources */,
 				81CEE4572913F9600077D71F /* FavouriteThingsListView.swift in Sources */,
-				812A7D8129105966001E61CB /* Lakefield2.swift in Sources */,
-				81CEE45D2913FE6C0077D71F /* tomato.swift in Sources */,
+				812A7D8129105966001E61CB /* Lakefield2View.swift in Sources */,
+				81CEE46829156B2D0077D71F /* FoodCollectionView.swift in Sources */,
+				81CEE45D2913FE6C0077D71F /* TomatoView.swift in Sources */,
+				81CEE46629156B210077D71F /* LakefieldViewCollection.swift in Sources */,
 				819D5679290C371A0073D9B8 /* FavouriteThingsApp.swift in Sources */,
-				81CEE45F2913FE820077D71F /* niumogazi.swift in Sources */,
-				81CEE45B2913FE610077D71F /* creme brulee.swift in Sources */,
-				81CEE4592913FD590077D71F /* Lakfield3.swift in Sources */,
+				81CEE45F2913FE820077D71F /* NiuMoGaZiView.swift in Sources */,
+				81CEE45B2913FE610077D71F /* CremeBruleeView.swift in Sources */,
+				81CEE4592913FD590077D71F /* Lakfield3View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

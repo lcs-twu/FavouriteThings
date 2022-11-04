@@ -10,20 +10,27 @@ import SwiftUI
 struct FavouriteThingsListView: View {
     var body: some View {
         List{
-            Text("Lakefield")
-            Text("Lakefield2")
-            Text("Lakefield3")
-            Text("Crumblee")
-            Text("Tomato")
-            Text("NiumoGazi")
+                NavigationLink(destination: {
+                    LakefieldViewCollectionView()
+                    }, label: {
+                        Text("LakefieldCollection")
+                })
+                
+                NavigationLink(destination: {
+                    FoodCollectionView()
+                }, label: {
+                    Text("FoodCollection")
+                })
+            }
+            .navigationTitle("My favourite things")
         }
-        .navigationTitle("My favourite things")
     }
 
-}
 
 struct FavouriteThingsListView_Previews: PreviewProvider {
     static var previews: some View {
-        FavouriteThingsListView()
+        NavigationView {
+            FavouriteThingsListView()
+        }
     }
 }

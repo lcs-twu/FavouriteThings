@@ -1,5 +1,5 @@
 //
-//  Lakefield.swift
+//  tomato.swift
 //  FavouriteThings
 //
 //  Created by Tom Wu on 2022-11-03.
@@ -7,24 +7,24 @@
 
 import SwiftUI
 
-struct LakefieldView: View {
+struct TomatoView: View {
     var body: some View {
-        VStack{
+        VStack(alignment: .leading){
             ScrollView{
-                Image("lakefield")
+                Image("tomato")
                     .resizable()
                     .scaledToFit()
                 
                 
                 Spacer()
             }
-            .navigationTitle("Title")
+            .navigationTitle("tomato")
         }
     }
 }
 
-struct Lakefield_Previews: PreviewProvider {
+struct Tomato_Previews: PreviewProvider {
     static var previews: some View {
-        LakefieldView()
+        TomatoView()
     }
 }
