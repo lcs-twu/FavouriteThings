@@ -11,9 +11,9 @@ struct NiuMoGaZiView: View {
     var body: some View {
         VStack(alignment: .leading){
             ScrollView{
-                Image("niumogazi")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView(photo: "niumogazi",
+                                 caption: "learned from my grandma",
+                                 credit: "Tom Wu")
                 
                 
                 Spacer()

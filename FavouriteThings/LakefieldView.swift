@@ -11,9 +11,9 @@ struct LakefieldView: View {
     var body: some View {
         VStack(alignment: .leading){
             ScrollView{
-                Image("lakefield")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView(photo: "lakefield",
+                                 caption: "a picture of lakefield",
+                                 credit: "Tom Wu")
                 
                 
                 Spacer()
